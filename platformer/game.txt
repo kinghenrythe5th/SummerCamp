@@ -1,0 +1,26 @@
+BasicGame.Game = function (game)
+{
+var map;
+var tileSet;
+var layer;
+var player;
+var facing = left;
+var jumptimer = 0;
+var cursors;
+var jumpbutton;
+var bg;
+}
+
+BasicGame.Game.prototype = 
+{
+create: function()
+{
+game.physics.startSystem(Phaer.Physics.ARCADE);
+game.stage.backgroundColor = '#ffffff';
+bg = game.add.tileSprite(0,0,800,600,'backround');
+
+
+
+
+
+}
